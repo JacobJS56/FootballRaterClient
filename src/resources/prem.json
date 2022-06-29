@@ -1,0 +1,182 @@
+[
+    {
+        "id": "015f3ee3-c4bb-46e4-bd0d-f8061311de31",
+        "teamName": "Brentford",
+        "league": "Premier League",
+        "rating": 5,
+        "manager": "Thomas Frank",
+        "stadium": "Brentford Community Stadium",
+        "logo": "https://drive.google.com/file/d/1-6Dvr_r_mafv5m_PjnLsk1iF2TKvCH-U/view?usp=drivesdk"
+    },
+    {
+        "id": "0293218b-d6ca-486a-b92e-eb413cfd06d6",
+        "teamName": "Liverpool",
+        "league": "Premier League",
+        "rating": 2,
+        "manager": "Jürgen Klopp",
+        "stadium": "Anfield",
+        "logo": "https://drive.google.com/file/d/1-PFp6DYOqtmYHkchhuI6lXDgs7p2enP3/view?usp=drivesdk"
+    },
+    {
+        "id": "1f4fd71e-2264-49b4-b75c-4592c18e8552",
+        "teamName": "Norwich City",
+        "league": "Premier League",
+        "rating": 9,
+        "manager": "Dean Smith",
+        "stadium": "1902",
+        "logo": "https://drive.google.com/file/d/1-WZiwy_PSa6hPMgfPOjHq9YJxbF3cqUn/view?usp=drivesdk"
+    },
+    {
+        "id": "2b546abb-e220-4d3c-852a-2baea54cefbd",
+        "teamName": "Aston Villa",
+        "league": "Premier League",
+        "rating": 4,
+        "manager": "Steven Gerrard",
+        "stadium": "Villa Park",
+        "logo": "https://drive.google.com/file/d/1-TPXDyffmIKHJGwLR78egI7CMJZKK0Op/view?usp=drivesdk"
+    },
+    {
+        "id": "2f1c6710-2151-4545-a760-d9029b06b8c0",
+        "teamName": "Watford",
+        "league": "Premier League",
+        "rating": 7,
+        "manager": "Roy Hodgson",
+        "stadium": "The Vic",
+        "logo": "https://drive.google.com/file/d/1-GvPDSF7crmo8S4Vo8IJfM_1ViwWAv8T/view?usp=drivesdk"
+    },
+    {
+        "id": "33e33c5a-3191-4b97-b20e-00218ed8543e",
+        "teamName": "Arsenal",
+        "league": "Premier League",
+        "rating": 2,
+        "manager": "Mikel Arteta",
+        "stadium": "Emirates Stadium",
+        "logo": "https://drive.google.com/file/d/1PVkbH-FW2s10tGhejHZmubMxX3Obo7ep/view?usp=drivesdk"
+    },
+    {
+        "id": "4e39de9a-4bcd-4a0f-856e-56bcb2dc6e70",
+        "teamName": "West Ham",
+        "league": "Premier League",
+        "rating": 7,
+        "manager": "David Moyes",
+        "stadium": "Olympic Stadium",
+        "logo": "https://drive.google.com/file/d/1-B_8E16TNSDd61eP6_6pMQ0gWPOMsdru/view?usp=drivesdk"
+    },
+    {
+        "id": "4effda41-5d38-4e1c-8d5d-15ffce0ab5f3",
+        "teamName": "Wolverhampton",
+        "league": "Premier League",
+        "rating": 8,
+        "manager": "Bruno Lage",
+        "stadium": "1877",
+        "logo": "https://drive.google.com/file/d/1-SPaK-ViKaLCj-2743esjIGt62wOTFs1/view?usp=drivesdk"
+    },
+    {
+        "id": "72a65296-6b03-4dee-8469-a9dce848b7f7",
+        "teamName": "Newcastle United",
+        "league": "Premier League",
+        "rating": 9,
+        "manager": "Eddie Howe",
+        "stadium": "1892",
+        "logo": "https://drive.google.com/file/d/1-Cnn7sZzk3sfrLBAhGtuQM5ea4QzOEjq/view?usp=drivesdk"
+    },
+    {
+        "id": "7e35eda9-6d23-4644-ab7c-cd36a1151201",
+        "teamName": "Chelsea",
+        "league": "Premier League",
+        "rating": 10,
+        "manager": "Thomas Tuchel",
+        "stadium": "Stamford Bridge",
+        "logo": "https://drive.google.com/file/d/1-E9BloXAP-XZ-emsrhWgKUZ3xj_92pU9/view?usp=drivesdk"
+    },
+    {
+        "id": "8434f8ed-4cb6-4350-826b-0b6d53bf9fce",
+        "teamName": "Burnley",
+        "league": "Premier League",
+        "rating": 1,
+        "manager": "Michael Jackson",
+        "stadium": "Turf Moor",
+        "logo": "https://drive.google.com/file/d/1-CfKgSV4vDPknJlWLCBL9yPdceQMHmwx/view?usp=drivesdk"
+    },
+    {
+        "id": "853686fe-9477-4df9-8658-e4a8e886e387",
+        "teamName": "Everton",
+        "league": "Premier League",
+        "rating": 2,
+        "manager": "Frank Lampard",
+        "stadium": "Goodison Park",
+        "logo": "https://drive.google.com/file/d/1-5pGUoH0uVas1--xHUvd_sIh3SpXt7gm/view?usp=drivesdk"
+    },
+    {
+        "id": "8fc451a2-a3e3-40ab-9492-dcb502f09c01",
+        "teamName": "Man United",
+        "league": "Premier League",
+        "rating": 7,
+        "manager": "Ralf Rangnick",
+        "stadium": "1878",
+        "logo": "https://drive.google.com/file/d/1-L_gos7NvL1OxNIb2sOjp708JqyESE5z/view?usp=drivesdk"
+    },
+    {
+        "id": "97399622-24c3-47f1-a11a-6e0db814f049",
+        "teamName": "Southampton",
+        "league": "Premier League",
+        "rating": 8,
+        "manager": "Ralph Hasenhüttl",
+        "stadium": "St. Mary's Stadium",
+        "logo": "https://drive.google.com/file/d/1-OFzN35GmfAekTBqOD2yJKumskAco3UP/view?usp=drivesdk"
+    },
+    {
+        "id": "9a115e23-8b41-4681-b4b7-0ac55475ac62",
+        "teamName": "Leicester",
+        "league": "Premier League",
+        "rating": 4,
+        "manager": "Brendan Rodgers",
+        "stadium": "King Power Stadium",
+        "logo": "https://drive.google.com/file/d/1-NoBua41xtc-wH2SYRw7s7J8MdYHf0N8/view?usp=drivesdk"
+    },
+    {
+        "id": "9aefb3f8-6fac-4d81-a6ac-02c68b6c4ae7",
+        "teamName": "Manchester City",
+        "league": "Premier League",
+        "rating": 6,
+        "manager": "Josep Guardiola",
+        "stadium": "1880",
+        "logo": "https://drive.google.com/file/d/1-SZApR0hZjhO6sLJHX7tfGivbwMF48GZ/view?usp=drivesdk"
+    },
+    {
+        "id": "a97e3dd4-07d8-4d83-bbd1-9a83643633ff",
+        "teamName": "Brighton & Hove",
+        "league": "Premier League",
+        "rating": 6,
+        "manager": "Graham Potter",
+        "stadium": "1901",
+        "logo": "https://drive.google.com/file/d/1-8GLNK3aij2lddatgd3nGwP7dwAtkX9E/view?usp=drivesdk"
+    },
+    {
+        "id": "ad296fe9-ca45-44c9-b642-b6dbd98bd530",
+        "teamName": "Leeds United",
+        "league": "Premier League",
+        "rating": 3,
+        "manager": "Jesse Marsch",
+        "stadium": "1919",
+        "logo": "https://drive.google.com/file/d/1-7RmoSJFtKmheMgMP15tGA1ORVe3G8GU/view?usp=drivesdk"
+    },
+    {
+        "id": "dc24e093-91b2-4343-8430-3a5c603fdbff",
+        "teamName": "Crystal Palace",
+        "league": "Premier League",
+        "rating": 4,
+        "manager": "Patrick Vieira",
+        "stadium": "1905",
+        "logo": "https://drive.google.com/file/d/1-HPuHP2bmCrjzI21R1TEDnM0AmDRzB40/view?usp=drivesdk"
+    },
+    {
+        "id": "e53d83e5-e003-45d2-a2fe-7e40e57e7b7a",
+        "teamName": "Tottenham",
+        "league": "Premier League",
+        "rating": 5,
+        "manager": "Antonio Conte",
+        "stadium": "Tottenham Hotspur Stadium",
+        "logo": "https://drive.google.com/file/d/1-ZzlLYNP1_j6pRUiv8OipZNu7wgkGtbw/view?usp=drivesdk"
+    }
+]

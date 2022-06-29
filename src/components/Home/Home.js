@@ -1,17 +1,35 @@
 import React from 'react';
 
 import './Home.css';
-import {motion} from 'framer-motion'
-import {useRef, useEffect, useState } from 'react';
+import data from "../../resources/prem.json"
+// Import css files
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 const Home = () => {
 
-    const[width, setWidth] = useState(0)
-    const carousel = useRef();
+    var settings = {
+        dots: true,
+        infinite: true,
+        slidesToShow: 6,
+        slidesToScroll: 4,
+    };
 
-    useEffect(() => {
-        setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth)
-    }, []);
+    const teamList = []
+
+    data.forEach((el)=>{
+        let imgURL = el.logo.split('/')
+        imgURL = "https://drive.google.com/uc?export=view&id=" + imgURL[5]
+
+        
+        teamList.push(
+            <div className="item">
+                <p>{el.teamName}</p>
+                <img src={imgURL} alt="image" />
+                <p>{el.rating}</p>
+            </div>)
+    })
 
     return (
         <div className="main">
@@ -34,49 +52,14 @@ const Home = () => {
             
             <div className="TeamBanner">
                 <p className="TeamText">TOP TEAMS</p>
-                <motion.div ref={carousel} className="carousel" whileTap={{cursor: "grabbing"}}>
-                    <motion.div 
-                        drag="x" 
-                        dragConstraints={{
-                            left: -width,
-                            right: 0
-                          }}
-                        className="inner-carousel"
-                        >
-                        <motion.div className="item1" key="liv1">
-                            <p>liverpool</p>
-                        </motion.div>
-                        <motion.div className="item2" key="city1">
-                            <p>city</p>
-                        </motion.div>
-                    </motion.div>
-                </motion.div>
-
+                <Slider className="carousel" {...settings}>
+                    {teamList}
+                </Slider>
             </div>
 
             <div className="line"/>
             <div className="PlayerBanner">
                 <p className="PlayerText">TOP PLAYERS</p>
-                <motion.div 
-                    ref={carousel} 
-                    className="carousel" 
-                    whileTap={{cursor: "grabbing"}}>
-                    <motion.div 
-                        drag="x" 
-                        className="inner-carousel"
-                        dragConstraints={{
-                            left: -width,
-                            right: 0
-                            }}
-                        >
-                        <motion.div className="item1" key="liv1">
-                            <p>liverpool</p>
-                        </motion.div>
-                        <motion.div className="item2" key="city1">
-                            <p>city</p>
-                        </motion.div>
-                    </motion.div>
-                </motion.div>
             </div>
 
             <div className="line"/>
