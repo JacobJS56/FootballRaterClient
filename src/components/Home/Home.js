@@ -3,6 +3,7 @@ import React from 'react';
 import './Home.css';
 import teamData from "../../resources/prem_teams.json"
 import playerData from "../../resources/prem_players.json"
+import leagueData from "../../resources/league.json"
 // Import css files
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -46,6 +47,22 @@ const Home = () => {
                 <p>{el.rating}</p>
             </div>)
     })
+
+    
+    const leagueList = []
+
+    leagueData.forEach((el)=>{
+        let imgURL = el.image.split('/')
+        imgURL = "https://drive.google.com/uc?export=view&id=" + imgURL[5]
+
+        
+        leagueList.push(
+            <div>
+                <p>{el.league}</p>
+                <img src={imgURL} alt="image" />
+            </div>)
+    })
+
     return (
         <div className="main">
             <nav className="stroke">
@@ -84,6 +101,7 @@ const Home = () => {
 
             <div className="LeagueBanner">
                 <p className="LeagueText">LEAGUES</p>
+                {leagueList}
             </div>
 
         </div>
