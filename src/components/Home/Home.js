@@ -1,7 +1,8 @@
 import React from 'react';
 
 import './Home.css';
-import data from "../../resources/prem.json"
+import teamData from "../../resources/prem_teams.json"
+import playerData from "../../resources/prem_players.json"
 // Import css files
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -18,19 +19,33 @@ const Home = () => {
 
     const teamList = []
 
-    data.forEach((el)=>{
+    teamData.forEach((el)=>{
         let imgURL = el.logo.split('/')
         imgURL = "https://drive.google.com/uc?export=view&id=" + imgURL[5]
 
         
         teamList.push(
-            <div className="item">
+            <div className="team-item">
                 <p>{el.teamName}</p>
                 <img src={imgURL} alt="image" />
                 <p>{el.rating}</p>
             </div>)
     })
 
+    const playerList = []
+
+    playerData.forEach((el)=>{
+        let imgURL = el.image.split('/')
+        imgURL = "https://drive.google.com/uc?export=view&id=" + imgURL[5]
+
+        playerList.push(
+            <div className="player-item">
+                <p>{el.combinedName}</p>
+                <p>{el.teamName}</p>
+                <img src={imgURL} alt="image" />
+                <p>{el.rating}</p>
+            </div>)
+    })
     return (
         <div className="main">
             <nav className="stroke">
@@ -52,7 +67,7 @@ const Home = () => {
             
             <div className="TeamBanner">
                 <p className="TeamText">TOP TEAMS</p>
-                <Slider className="carousel" {...settings}>
+                <Slider className="team-carousel" {...settings}>
                     {teamList}
                 </Slider>
             </div>
@@ -60,6 +75,9 @@ const Home = () => {
             <div className="line"/>
             <div className="PlayerBanner">
                 <p className="PlayerText">TOP PLAYERS</p>
+                <Slider className="carousel" {...settings}>
+                    {playerList}
+                </Slider>
             </div>
 
             <div className="line"/>
