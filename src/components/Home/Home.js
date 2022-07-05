@@ -1,8 +1,8 @@
 import React from 'react';
 
 import './Home.css';
-import teamData from "../../resources/prem_teams.json"
-import playerData from "../../resources/prem_players.json"
+import teamData from "../../resources/top_20_teams.json"
+import playerData from "../../resources/top_20_players.json"
 import leagueData from "../../resources/league.json"
 // Import css files
 import "slick-carousel/slick/slick.css";

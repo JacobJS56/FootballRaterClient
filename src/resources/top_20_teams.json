@@ -1,0 +1,173 @@
+[
+    {
+        "id": "bb558ac3-7b0f-4fe9-a0cf-6efd53487ea6",
+        "teamName": "Elche",
+        "league": "La Liga Santander",
+        "rating": 6.43,
+        "manager": "Francisco",
+        "stadium": "Estadio Martinez Valero",
+        "logo": "https://drive.google.com/file/d/1AiXXbx47UDd9eWQcZDATLftXZzzh4Mv7/view?usp=drivesdk"
+    },
+    {
+        "id": "e29a70ea-47d8-42c0-b907-fb5eedb73f32",
+        "teamName": "Southampton",
+        "league": "Premier League",
+        "rating": 5.93,
+        "manager": "Ralph Hasenhüttl",
+        "stadium": "St. Mary's Stadium",
+        "logo": "https://drive.google.com/file/d/1eaPXUHjEMGKI-FmE-Q7hOaryk3hMlREg/view?usp=drivesdk"
+    },
+    {
+        "id": "94e54c47-3b69-4a13-94b0-2144acfb6126",
+        "teamName": "Sevilla FC",
+        "league": "La Liga Santander",
+        "rating": 5.71,
+        "manager": "Julen Lopetegui",
+        "stadium": "Ramón Sánchez Pizjuán",
+        "logo": "https://drive.google.com/file/d/1gBUrXrb-lilcJtMZ9vKB5FhIaWoF91yZ/view?usp=drivesdk"
+    },
+    {
+        "id": "9d807db1-2a1f-42dc-99d6-e219aaaf318e",
+        "teamName": "Everton",
+        "league": "Premier League",
+        "rating": 5.62,
+        "manager": "Frank Lampard",
+        "stadium": "Goodison Park",
+        "logo": "https://drive.google.com/file/d/19jqLfQZyaV5s05L3EAM4_o1YOY6XzGHH/view?usp=drivesdk"
+    },
+    {
+        "id": "63247039-498c-4483-a5af-6b9f5535669a",
+        "teamName": "Newcastle United",
+        "league": "Premier League",
+        "rating": 5.6,
+        "manager": "Eddie Howe",
+        "stadium": "1892",
+        "logo": "https://drive.google.com/file/d/1PkVFRnjF1pbWIajQDh4KFeHSEtCiP6-u/view?usp=drivesdk"
+    },
+    {
+        "id": "e5fc813f-2bf7-44b6-b916-28d2896a09ae",
+        "teamName": "Man United",
+        "league": "Premier League",
+        "rating": 5.53,
+        "manager": "Ralf Rangnick",
+        "stadium": "1878",
+        "logo": "https://drive.google.com/file/d/1_Gi3SH5FokiwkFDATIr4mvZbaRg-CsyX/view?usp=drivesdk"
+    },
+    {
+        "id": "df33f01b-56ba-44c4-a713-562e6b3a1614",
+        "teamName": "Valencia CF",
+        "league": "La Liga Santander",
+        "rating": 5.3,
+        "manager": "José Bordalás",
+        "stadium": "Estadio Mestalla",
+        "logo": "https://drive.google.com/file/d/14TbhBHihekSoRuN1zzCCQkrXYlW6joB5/view?usp=drivesdk"
+    },
+    {
+        "id": "8daa5f08-c9b9-4389-9797-a355d95a6d4d",
+        "teamName": "Atlético Madrid",
+        "league": "La Liga Santander",
+        "rating": 5.26,
+        "manager": "Diego Simeone",
+        "stadium": "1903",
+        "logo": "https://drive.google.com/file/d/1dPAP7-Q_hpYS_Lia7RcbE9jMeEmXk_-J/view?usp=drivesdk"
+    },
+    {
+        "id": "20cbb421-68a5-4e91-b673-9847d1c64033",
+        "teamName": "Brentford",
+        "league": "Premier League",
+        "rating": 5.25,
+        "manager": "Thomas Frank",
+        "stadium": "Brentford Community Stadium",
+        "logo": "https://drive.google.com/file/d/1CdDVzWcg3J2xt2ZDHsJ6E_QDVCfHDwdy/view?usp=drivesdk"
+    },
+    {
+        "id": "18e303e8-6ba2-4529-82f4-2d8baf9f0c0e",
+        "teamName": "Arsenal",
+        "league": "Premier League",
+        "rating": 5.21,
+        "manager": "Mikel Arteta",
+        "stadium": "Emirates Stadium",
+        "logo": "https://drive.google.com/file/d/16IW-cC1rcv-xd3die0cVyhVaXrxiJTfm/view?usp=drivesdk"
+    },
+    {
+        "id": "0adf3263-76e3-462e-83a4-f242774fd1c4",
+        "teamName": "Levante",
+        "league": "La Liga Santander",
+        "rating": 5.2,
+        "manager": "Alessio Lisci",
+        "stadium": "Estadio Ciudad de Valencia",
+        "logo": "https://drive.google.com/file/d/11dP2FrLG40_j-05ZIr2sQ3g2NFlCxZVy/view?usp=drivesdk"
+    },
+    {
+        "id": "62bcb3ab-98a7-403a-8e12-5fa968fe2ac4",
+        "teamName": "Manchester City",
+        "league": "Premier League",
+        "rating": 5.2,
+        "manager": "Josep Guardiola",
+        "stadium": "1880",
+        "logo": "https://drive.google.com/file/d/1m-nzvnpspQMhT8_qLnQHO24nX6Ry86qm/view?usp=drivesdk"
+    },
+    {
+        "id": "2eac1133-388d-4463-a2cf-7e1dcffc1248",
+        "teamName": "Villarreal",
+        "league": "La Liga Santander",
+        "rating": 5.17,
+        "manager": "Unai Emery",
+        "stadium": "El Madrigal",
+        "logo": "https://drive.google.com/file/d/1YcAy01UW-XwzkPkUnjDvC6CyIOsEIRu-/view?usp=drivesdk"
+    },
+    {
+        "id": "4ca4ce1c-7853-4ef5-affd-728b87434eb5",
+        "teamName": "Watford",
+        "league": "Premier League",
+        "rating": 5.12,
+        "manager": "Roy Hodgson",
+        "stadium": "The Vic",
+        "logo": "https://drive.google.com/file/d/1UuTYxqThVyBLLPHt05lM4CDzYnkgYMeV/view?usp=drivesdk"
+    },
+    {
+        "id": "8151b75f-9db6-4cbd-9f56-e202408fe508",
+        "teamName": "Granada CF",
+        "league": "La Liga Santander",
+        "rating": 5.12,
+        "manager": "Aitor Karanka",
+        "stadium": "Nuevo Los Cármenes",
+        "logo": "https://drive.google.com/file/d/1Lwm22Zom4ApLFTiPxXqg7R8M1DkZw5tn/view?usp=drivesdk"
+    },
+    {
+        "id": "6f011b8c-f870-4520-90d3-38a402626e79",
+        "teamName": "Real Betis",
+        "league": "La Liga Santander",
+        "rating": 5.1,
+        "manager": "Manuel Pellegrini",
+        "stadium": "1907",
+        "logo": "https://drive.google.com/file/d/1yb_x0Im_llM7LQmPw9yLS5Om0aHVp-XQ/view?usp=drivesdk"
+    },
+    {
+        "id": "f6d37138-3497-4669-a8d6-993bc86b8b1d",
+        "teamName": "Chelsea",
+        "league": "Premier League",
+        "rating": 5.06,
+        "manager": "Thomas Tuchel",
+        "stadium": "Stamford Bridge",
+        "logo": "https://drive.google.com/file/d/1SCRNfKVXplVYvRLtF3oia3A22HwXuDO1/view?usp=drivesdk"
+    },
+    {
+        "id": "13a20e75-f9ce-43a9-b440-122d500b8d6f",
+        "teamName": "Cádiz",
+        "league": "La Liga Santander",
+        "rating": 5.05,
+        "manager": "Sergio González",
+        "stadium": "Estadio Nuevo Mirandilla",
+        "logo": "https://drive.google.com/file/d/1JZNHy1MWhhmIk3ovZcUbM5R9owBkx13w/view?usp=drivesdk"
+    },
+    {
+        "id": "fc611a8a-168e-4605-9f5d-1e07e9b7caaf",
+        "teamName": "Aston Villa",
+        "league": "Premier League",
+        "rating": 5.02,
+        "manager": "Steven Gerrard",
+        "stadium": "Villa Park",
+        "logo": "https://drive.google.com/file/d/1o5lAc48O0_22pw4cXiISXQrsHhvLDNXN/view?usp=drivesdk"
+    }
+]
