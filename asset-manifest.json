@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/FootballRaterClient/static/css/main.431fdbf9.css",
-    "main.js": "/FootballRaterClient/static/js/main.7135d85b.js",
+    "main.js": "/FootballRaterClient/static/js/main.65707008.js",
     "static/js/787.12c8459f.chunk.js": "/FootballRaterClient/static/js/787.12c8459f.chunk.js",
     "static/media/banner-bg22.jpg": "/FootballRaterClient/static/media/banner-bg22.e62ede5753e43d49a6d6.jpg",
     "static/media/slick.svg": "/FootballRaterClient/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -10,11 +10,11 @@
     "static/media/slick.woff": "/FootballRaterClient/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/FootballRaterClient/index.html",
     "main.431fdbf9.css.map": "/FootballRaterClient/static/css/main.431fdbf9.css.map",
-    "main.7135d85b.js.map": "/FootballRaterClient/static/js/main.7135d85b.js.map",
+    "main.65707008.js.map": "/FootballRaterClient/static/js/main.65707008.js.map",
     "787.12c8459f.chunk.js.map": "/FootballRaterClient/static/js/787.12c8459f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.431fdbf9.css",
-    "static/js/main.7135d85b.js"
+    "static/js/main.65707008.js"
   ]
 }
