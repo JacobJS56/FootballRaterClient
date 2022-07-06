@@ -1,7 +1,7 @@
 {
   "name": "football-rater-client",
   "version": "0.1.0",
-  "homepage": "https://jacobjs56.github.io/FootballRaterClient",
+  "homepage": "https://jacobjs56.github.io/FootballRaterClient/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.3",

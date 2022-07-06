@@ -29,19 +29,19 @@ const Home = () => {
     // for local testing use localhost:8080 or use the imported JSON abovw
 
     const getTeamData = async () => {
-        const { data } = await axios.get("http://football-rater.herokuapp.com/api/v2/team/top-20");
+        const { data } = await axios.get("https://football-rater.herokuapp.com/api/v2/team/top-20");
         setTeamData(data);
         console.log(data);
     };
 
     const getPlayerData = async () => {
-        const { data } = await axios.get("http://football-rater.herokuapp.com/api/v2/player/top-20");
+        const { data } = await axios.get("https://football-rater.herokuapp.com/api/v2/player/top-20");
         setPlayerData(data);
         console.log(data);
     };
 
     const getLeagueData = async () => {
-        const { data } = await axios.get("http://football-rater.herokuapp.com/api/v2/league/all");
+        const { data } = await axios.get("https://football-rater.herokuapp.com/api/v2/league/all");
         setLeagueData(data);
         console.log(data);
     };
