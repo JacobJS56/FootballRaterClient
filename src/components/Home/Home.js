@@ -4,9 +4,9 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 
 import './Home.css';
-import teamData from "../../resources/top_20_teams.json"
-import playerData from "../../resources/top_20_players.json"
-import leagueData from "../../resources/league.json"
+// import teamData from "../../resources/top_20_teams.json"
+// import playerData from "../../resources/top_20_players.json"
+// import leagueData from "../../resources/league.json"
 
 // Import css files
 import "slick-carousel/slick/slick.css";
@@ -22,33 +22,35 @@ const Home = () => {
         slidesToScroll: 4,
     };
 
-    // const [teamData, setTeamData] = useState([]);
-    // const [playerData, setPlayerData] = useState([]);
-    // const [leagueData, setLeagueData] = useState([]);
+    const [teamData, setTeamData] = useState([]);
+    const [playerData, setPlayerData] = useState([]);
+    const [leagueData, setLeagueData] = useState([]);
 
-    // const getTeamData = async () => {
-    //     const { data } = await axios.get("http://localhost:8080/api/v2/team/top-20");
-    //     setTeamData(data);
-    //     console.log(data);
-    // };
+    // for local testing use localhost:8080 or use the imported JSON abovw
 
-    // const getPlayerData = async () => {
-    //     const { data } = await axios.get("http://localhost:8080/api/v2/player/top-20");
-    //     setPlayerData(data);
-    //     console.log(data);
-    // };
+    const getTeamData = async () => {
+        const { data } = await axios.get("http://football-rater.herokuapp.com/api/v2/team/top-20");
+        setTeamData(data);
+        console.log(data);
+    };
 
-    // const getLeagueData = async () => {
-    //     const { data } = await axios.get("http://localhost:8080/api/v2/league/all");
-    //     setLeagueData(data);
-    //     console.log(data);
-    // };
+    const getPlayerData = async () => {
+        const { data } = await axios.get("http://football-rater.herokuapp.com/api/v2/player/top-20");
+        setPlayerData(data);
+        console.log(data);
+    };
 
-    // useEffect(() => {
-    //     getTeamData();
-    //     getPlayerData();
-    //     getLeagueData();
-    // }, []);
+    const getLeagueData = async () => {
+        const { data } = await axios.get("http://football-rater.herokuapp.com/api/v2/league/all");
+        setLeagueData(data);
+        console.log(data);
+    };
+
+    useEffect(() => {
+        getTeamData();
+        getPlayerData();
+        getLeagueData();
+    }, []);
 
     const teamList = []
     teamData.forEach((el)=>{
