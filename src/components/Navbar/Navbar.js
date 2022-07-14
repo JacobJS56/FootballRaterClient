@@ -13,7 +13,7 @@ class Navbar extends Component {
               <a href="/">Home</a>
             </li>
             <li>
-              <a href="/#/leagues">Leagues</a>
+              <a href="/#/Competitions">Competitions</a>
             </li>
             <li>
               <a href="/#/teams">Teams</a>

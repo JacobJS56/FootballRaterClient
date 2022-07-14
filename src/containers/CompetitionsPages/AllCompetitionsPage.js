@@ -4,19 +4,19 @@ import '../../components/Navbar/Navbar'
 import PropTypes from 'prop-types';
 import Navbar from '../../components/Navbar/Navbar';
 
-class AllLeaguesPage extends Component {
+class AllCompetitionsPage extends Component {
     render() {
         return (
             <div>
                 <Navbar />
-                <h1>Leagues</h1>
+                <h1>Competitions</h1>
             </div>
         );
     }
 }
 
-AllLeaguesPage.propTypes = {
+AllCompetitionsPage.propTypes = {
 
 };
 
-export default AllLeaguesPage;
+export default AllCompetitionsPage;

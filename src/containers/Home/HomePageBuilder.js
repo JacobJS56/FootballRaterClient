@@ -128,7 +128,7 @@ const HomePageBuilder = (props) => {
       <div className="line" />
 
       <div className="LeagueBanner">
-        <p className="LeagueText">LEAGUES</p>
+        <p className="LeagueText">Competitions</p>
         {leagueList}
       </div>
     </div>

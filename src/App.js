@@ -1,5 +1,5 @@
 import Home from './containers/Home/HomePageBuilder';
-import Leagues from './containers/LeaguesPages/AllLeaguesPage'
+import Competitions from './containers/CompetitionsPages/AllCompetitionsPage'
 import Players from './containers/PlayerPages/AllPlayersPage'
 import Teams from './containers/TeamsPages/AllTeamsPage'
 import FourOFour from './containers/Page404'
@@ -13,7 +13,7 @@ function App() {
     <HashRouter>
       <Routes>
         <Route exact path="/" element={<Home />}></Route>
-        <Route path="/Leagues" element={<Leagues />}></Route>
+        <Route path="/Competitions" element={<Competitions />}></Route>
         <Route path="/Teams" element={<Teams />}></Route>
         <Route path="/Players" element={<Players />}></Route>
         <Route path="/404" element={<FourOFour />} />
